@@ -1,8 +1,8 @@
 .productsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax for your card width */
-  gap: 2rem; /* Space between cards */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
   padding: 4rem;
-  margin: 0 auto; /* Center the grid */
-  max-width: 1400px; /* Adjust to your layout's max width */
+  margin: 0 auto;
+  max-width: 1400px;
 }

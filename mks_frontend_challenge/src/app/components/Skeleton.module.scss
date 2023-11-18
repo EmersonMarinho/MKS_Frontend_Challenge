@@ -1,0 +1,43 @@
+.skeleton {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #eee;
+    }
+    50% {
+      background-color: #ddd;
+    }
+    100% {
+      background-color: #eee;
+    }
+  }
+  
+  .image {
+    height: 250px;
+    background-color: #eee;
+  }
+  
+  .text {
+    height: 20px;
+    background-color: #eee;
+    width: 80%;
+  }
+  
+  .text:nth-child(3) {
+    width: 60%;
+  }
+  
+  .button {
+    height: 40px;
+    background-color: #eee;
+    border-radius: 8px;
+  }
+  
