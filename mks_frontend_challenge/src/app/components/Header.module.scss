@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0052cc;
+    color: #fff;
+}
+  
+.logo {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 0 3rem;
+}
+  
+.sistemas {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+}
+  
+.cartContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    width: 6.25rem;
+    border-radius: 10px;
+    margin: 0 3rem 0 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.cartIcon {
+    font-size: 2rem;
+    color: black;
+    margin: 0 15px;
+}
+
+.cartCount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    border-radius: 50%;
+    min-width: 30px;
+    height: 20px;
+    font-size: 1rem;
+    padding: 0 6px;
+}
